@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """Script that takes a list of floats
 and returns its sum as float
 """
