@@ -1,4 +1,5 @@
 #!usr/bin/env python3
+
 """Script that takes two strings
 and returns its concatenation
 """
