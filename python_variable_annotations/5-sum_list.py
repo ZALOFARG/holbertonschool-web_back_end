@@ -2,9 +2,10 @@
 """Script that takes a list of floats
 and returns its sum as float
 """
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """func takes a list and returns its sum
 
     Args:
