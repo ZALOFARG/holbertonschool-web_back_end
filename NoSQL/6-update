@@ -1,0 +1,11 @@
+// script that updates a row
+db.school.updateMany(
+  {
+    "name": "Holberton school"
+  }, 
+  {$set:
+    {
+      "address": "972 Mission street"
+    }
+  }
+)
