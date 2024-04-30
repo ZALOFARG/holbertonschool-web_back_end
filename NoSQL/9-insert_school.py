@@ -13,8 +13,8 @@ def insert_school(mongo_collection, **kwargs):
     Returns:
         _id
     """
-    inserted = mongo_collection.insert_one(kwargs)
-    return inserted
+    res = mongo_collection.insert_one(kwargs)
+    return res.inserted_id
 
 
 if __name__ == '__main__':
