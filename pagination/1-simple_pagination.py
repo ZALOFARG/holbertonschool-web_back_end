@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""asd"""
+"""Server class pagination"""
 
 import csv
 import math
