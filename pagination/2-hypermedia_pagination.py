@@ -59,7 +59,7 @@ class Server:
             return []
 
         return dataset[start_index:end_index]
-    
+
     def get_hyper(self, page: int = 1, page_size: int = 10) -> dict:
         """funct that determines the dict with hypermedia pagination
 
