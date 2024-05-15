@@ -2,14 +2,40 @@
 
 ## 0. Const or let? 
 
-## 1. Block Scope 
+function taskFirst to instantiate variables using const
+function taskNext to instantiate variables using let
 
-## 2. Arrow functions 
+## 1. Block Scope
 
-## 3. Parameter defaults 
+Given what you’ve read about var and hoisting, modify the variables inside the \
+function taskBlock so that the variables aren’t overwritten inside the conditional block.
+
+## 2. Arrow functions
+
+Rewrite the following standard function to use ES6’s arrow syntax of the function \
+add (it will be an anonymous function after)
+
+## 3. Parameter defaults
+
+Condense the internals of the following function to 1 line - without changing the \
+name of each function/variable.
 
 ## 4. Rest parameter syntax for functions 
 
-## 5. The wonders of spread syntax
+Modify the following function to return the number of arguments passed to it using\
+the rest parameter syntax
 
-## 6. Take advantage of template literals
+## 5. The wonders of spread syntax 
+
+Using spread syntax, concatenate 2 arrays and each character of a string by \
+modifying the function below. Your function body should be one line long.
+
+## 6. Take advantage of template literals 
+
+Rewrite the return statement to use a template literal so you can the substitute\
+the variables you’ve defined.
+
+## 7. Object property value shorthand syntax
+
+Modify the following function’s budget object to simply use the object property\
+value shorthand syntax instead.
